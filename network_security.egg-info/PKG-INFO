@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: network_security
+Version: 0.0.1
+Summary: Short description of your package
+Author: YASHARTH YASH
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pymongo
+Requires-Dist: certifi
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary

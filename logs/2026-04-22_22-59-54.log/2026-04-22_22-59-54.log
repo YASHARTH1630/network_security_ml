@@ -1,0 +1,21 @@
+[2026-04-22 22:59:55,856] numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2026-04-22 22:59:59,954] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-04-22 22:59:59,954] root - INFO - Starting data ingestion
+[2026-04-22 23:00:12,966] pymongo.serverSelection - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 69e905a4d06483aa83572b45, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-riidhfq-shard-00-00.vu4tnxt.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-riidhfq-shard-00-01.vu4tnxt.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-riidhfq-shard-00-02.vu4tnxt.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "69e905a4d06483aa83572b45"}, "remainingTimeMS": 29}
+[2026-04-22 23:01:58,082] root - INFO - Dataframe created with columns: Index(['id', 'NumDots', 'SubdomainLevel', 'PathLevel', 'UrlLength', 'NumDash',
+       'NumDashInHostname', 'AtSymbol', 'TildeSymbol', 'NumUnderscore',
+       'NumPercent', 'NumQueryComponents', 'NumAmpersand', 'NumHash',
+       'NumNumericChars', 'NoHttps', 'RandomString', 'IpAddress',
+       'DomainInSubdomains', 'DomainInPaths', 'HttpsInHostname',
+       'HostnameLength', 'PathLength', 'QueryLength', 'DoubleSlashInPath',
+       'NumSensitiveWords', 'EmbeddedBrandName', 'PctExtHyperlinks',
+       'PctExtResourceUrls', 'ExtFavicon', 'InsecureForms',
+       'RelativeFormAction', 'ExtFormAction', 'AbnormalFormAction',
+       'PctNullSelfRedirectHyperlinks', 'FrequentDomainNameMismatch',
+       'FakeLinkInStatusBar', 'RightClickDisabled', 'PopUpWindow',
+       'SubmitInfoToEmail', 'IframeOrFrame', 'MissingTitle',
+       'ImagesOnlyInForm', 'SubdomainLevelRT', 'UrlLengthRT',
+       'PctExtResourceUrlsRT', 'AbnormalExtFormActionR', 'ExtMetaScriptLinkRT',
+       'PctExtNullSelfRedirectHyperlinksRT', 'CLASS_LABEL'],
+      dtype='object')
+[2026-04-22 23:01:58,634] root - INFO - Dataframe exported to feature store file: C:\Users\ASUS\Desktop\NETWORKSECURITY\Artifacts\data_ingestion\feature_store\Phising_Legitmate_full.csv

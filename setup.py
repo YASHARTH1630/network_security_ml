@@ -9,7 +9,7 @@ def get_requirements() -> List[str]:
             # Read the contents of the file
             lines = f.readlines()
             for line in lines:
-                req = line.strip()
+                req = line.strip() # Remove leading/trailing whitespace and newline characters
                 # Skip empty lines and accidental '.e'
                 if req and req != "-e .":
                     requirements.append(req)

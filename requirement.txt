@@ -6,4 +6,6 @@ certifi
 pymongo[srv]==4.7
 pymongo
 scikit-learn
+pyaml
+dill
 -e .

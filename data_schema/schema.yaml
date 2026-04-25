@@ -1,0 +1,53 @@
+columns:
+  id: int
+  NumDots: int
+  SubdomainLevel: int
+  PathLevel: int
+  UrlLength: int
+  NumDash: int
+  NumDashInHostname: int
+  AtSymbol: int
+  TildeSymbol: int
+  NumUnderscore: int
+  NumPercent: int
+  NumQueryComponents: int
+  NumAmpersand: int
+  NumHash: int
+  NumNumericChars: int
+  NoHttps: int
+  RandomString: int
+  IpAddress: int
+  DomainInSubdomains: int
+  DomainInPaths: int
+  HttpsInHostname: int
+  HostnameLength: int
+  PathLength: int
+  QueryLength: int
+  DoubleSlashInPath: int
+  NumSensitiveWords: int
+  EmbeddedBrandName: int
+  PctExtHyperlinks: float
+  PctExtResourceUrls: float
+  ExtFavicon: int
+  InsecureForms: int
+  RelativeFormAction: int
+  ExtFormAction: int
+  AbnormalFormAction: int
+  PctNullSelfRedirectHyperlinks: float
+  FrequentDomainNameMismatch: int
+  FakeLinkInStatusBar: int
+  RightClickDisabled: int
+  PopUpWindow: int
+  SubmitInfoToEmail: int
+  IframeOrFrame: int
+  MissingTitle: int
+  ImagesOnlyInForm: int
+  SubdomainLevelRT: int
+  UrlLengthRT: int
+  PctExtResourceUrlsRT: float
+  AbnormalExtFormActionR: int
+  ExtMetaScriptLinkRT: int
+  PctExtNullSelfRedirectHyperlinksRT: float
+
+target_column: CLASS_LABEL
+target_column_type: int

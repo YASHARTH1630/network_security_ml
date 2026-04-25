@@ -1,0 +1,27 @@
+[2026-04-25 05:40:47,528] numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2026-04-25 05:40:51,664] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-04-25 05:40:51,665] root - INFO - Starting data ingestion
+[2026-04-25 05:41:04,499] pymongo.serverSelection - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 69ec0698b6ceae12b3725404, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-riidhfq-shard-00-00.vu4tnxt.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-riidhfq-shard-00-01.vu4tnxt.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-riidhfq-shard-00-02.vu4tnxt.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "69ec0698b6ceae12b3725404"}, "remainingTimeMS": 29}
+[2026-04-25 05:41:11,688] root - INFO - Dataframe created with columns: Index(['id', 'NumDots', 'SubdomainLevel', 'PathLevel', 'UrlLength', 'NumDash',
+       'NumDashInHostname', 'AtSymbol', 'TildeSymbol', 'NumUnderscore',
+       'NumPercent', 'NumQueryComponents', 'NumAmpersand', 'NumHash',
+       'NumNumericChars', 'NoHttps', 'RandomString', 'IpAddress',
+       'DomainInSubdomains', 'DomainInPaths', 'HttpsInHostname',
+       'HostnameLength', 'PathLength', 'QueryLength', 'DoubleSlashInPath',
+       'NumSensitiveWords', 'EmbeddedBrandName', 'PctExtHyperlinks',
+       'PctExtResourceUrls', 'ExtFavicon', 'InsecureForms',
+       'RelativeFormAction', 'ExtFormAction', 'AbnormalFormAction',
+       'PctNullSelfRedirectHyperlinks', 'FrequentDomainNameMismatch',
+       'FakeLinkInStatusBar', 'RightClickDisabled', 'PopUpWindow',
+       'SubmitInfoToEmail', 'IframeOrFrame', 'MissingTitle',
+       'ImagesOnlyInForm', 'SubdomainLevelRT', 'UrlLengthRT',
+       'PctExtResourceUrlsRT', 'AbnormalExtFormActionR', 'ExtMetaScriptLinkRT',
+       'PctExtNullSelfRedirectHyperlinksRT', 'CLASS_LABEL'],
+      dtype='object')
+[2026-04-25 05:41:12,251] root - INFO - Dataframe exported to feature store file: C:\Users\ASUS\Desktop\NETWORKSECURITY\Artifacts\data_ingestion\feature_store\Phishing_Legitmate_full.csv
+[2026-04-25 05:41:12,822] root - INFO - Data split into train and test sets. Train file: C:\Users\ASUS\Desktop\NETWORKSECURITY\Artifacts\data_ingestion\ingested\train.csv, Test file: C:\Users\ASUS\Desktop\NETWORKSECURITY\Artifacts\data_ingestion\ingested\test.csv
+[2026-04-25 05:41:12,824] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Validation Started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-04-25 05:41:12,931] root - INFO - Expected columns: 50
+[2026-04-25 05:41:12,932] root - INFO - Actual columns: 50
+[2026-04-25 05:41:12,932] root - INFO - Expected columns: 50
+[2026-04-25 05:41:12,932] root - INFO - Actual columns: 50

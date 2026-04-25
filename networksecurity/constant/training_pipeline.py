@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 ##THIS IS THE FILE WHERE WE WILL DEFINE ALL THE CONSTANTS RELATED TO TRAINING PIPELINE
 print("🔥 LOADED TRAINING_PIPELINE.PY")
-TARGET_COLUMN="Result"
+TARGET_COLUMN="CLASS_LABEL"
 PIPELINE_NAME:str="NetworkSecurity"
 ARTIFACT_DIR:str="Artifacts"
 FILE_NAME:str="Phishing_Legitmate_full.csv"

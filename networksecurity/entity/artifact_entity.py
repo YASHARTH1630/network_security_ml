@@ -16,3 +16,13 @@ class DataTransformationArtifact:
     transformed_train_file_path:str ##preprocessed train data file path which will be used by model trainer component to train the model
     transformed_test_file_path:str
     transformed_object_file_path:str
+@dataclass
+class ClassificationMetricArtifact:
+    f1_score:float
+    precision_score:float
+    recall_score:float
+@dataclass
+class ModelTrainerArtifact:
+    trained_model_file_path:str
+    trained_metric_artifact:ClassificationMetricArtifact ##for calculated metric
+    test_metric_artifact:ClassificationMetricArtifact

@@ -11,7 +11,6 @@ from networksecurity.constant.training_pipeline import (
     DATA_TRANSFORMATION_IMPUTER_PARAMS,
     TARGET_COLUMN
 )
-
 from networksecurity.entity.artifact_entity import DataValidationArtifact,DataTransformationArtifact
 from networksecurity.entity.config_entity import DataTransformationConfig
 from networksecurity.utils.main_utils.utils import (
@@ -21,8 +20,9 @@ from networksecurity.utils.main_utils.utils import (
     save_object
 )
 class DataTransformation:
-    def __init__(self,data_transformation_config:DataTransformationConfig,
-                 data_validation_artifact:DataValidationArtifact):
+    def __init__(self,data_validation_artifact:DataValidationArtifact,
+                 data_transformation_config:DataTransformationConfig,
+                 ):
         try:
             logging.info(f"{'>>'*20} Data Transformation {'<<'*20}")
             self.data_transformation_config=data_transformation_config

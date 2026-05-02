@@ -18,14 +18,14 @@ SCHEMA_FILE_PATH = os.path.join(
 )
 DATA_INGESTION_DATABASE_NAME = "NetworkSecurity"
 DATA_INGESTION_COLLECTION_NAME = "Phishing_Legitimate_full"
-DATA_INGESTION_DIR_NAME:str="data_ingestion"
-DATA_INGESTION_FEATURE_STORE_DIR:str="feature_store"
-DATA_INGESTION_INGESTED_DIR:str="ingested"
+DATA_INGESTION_DIR_NAME:str="data_ingestion" ##file_name in artifact directory where the data validation related files will be stored
+DATA_INGESTION_FEATURE_STORE_DIR:str="feature_store"##This is the directory where the feature store will be stored inside data ingestion directory
+DATA_INGESTION_INGESTED_DIR:str="ingested"##This is the directory where the ingested data will be stored inside data ingestion directory
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO:float=0.2
 """DATA VALIDATION RELATED CONSTANTS"""
 DATA_VALIDATION_DIR_NAME:str="data_validation"
-DATA_VALIDATION_VALID_DIR:str="valid"
-DATA_VALIDATION_DRIFT_REPORT_FILE_NAME:str="report.yaml"
+DATA_VALIDATION_VALID_DIR:str="valid"##
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME:str="report.yaml" 
 DATA_VALIDATION_INVALID_DIR:str="invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR:str="drift_report"
 """DATA TRANSFORMATION RELATED CONSTANTS"""
@@ -41,7 +41,7 @@ DATA_TRANSFORMATION_IMPUTER_PARAMS:dict={
 }
 """MODEL TRAINER RELATED CONSTRAINT"""
 MODEL_TRAINER_DIR_NAME:str="model_trainer"
-MODEL_TRAINER_OVERFITTING_UNDER_FITTING_THRESHOLD:float="0.05"
-MODEL_TRAINER_EXCEPTED_SCORE:float="0.6"
+MODEL_TRAINER_OVERFITTING_UNDER_FITTING_THRESHOLD:float=0.05
+MODEL_TRAINER_EXCEPTED_SCORE:float=0.6
 MODEL_TRAINER_TRAINED_MODEL_NAME:str="model.pkl"
 MODEL_TRAINER_TRAINING_TRAINED_MODEL_DIR:str="trained_model"

@@ -16,10 +16,10 @@ AbnormalExtFormActionR:
     - 0
   - !!binary |
     AA==
-  p_value: 0.9849325510033905
+  p_value: 0.999945600191019
 AbnormalFormAction:
   drift_status: *id001
-  p_value: 0.9999926357184024
+  p_value: 1.0
 AtSymbol:
   drift_status: *id001
   p_value: 1.0
@@ -28,7 +28,7 @@ CLASS_LABEL:
   p_value: 0.9999885535352674
 DomainInPaths:
   drift_status: *id001
-  p_value: 0.9997377979881943
+  p_value: 0.4540516772507619
 DomainInSubdomains:
   drift_status: *id001
   p_value: 1.0
@@ -37,130 +37,130 @@ DoubleSlashInPath:
   p_value: 1.0
 EmbeddedBrandName:
   drift_status: *id001
-  p_value: 0.99999999999978
+  p_value: 1.0
 ExtFavicon:
   drift_status: *id001
   p_value: 1.0
 ExtFormAction:
   drift_status: *id001
-  p_value: 0.6820231215741098
+  p_value: 0.9999998428145436
 ExtMetaScriptLinkRT:
   drift_status: *id001
-  p_value: 0.9516910258684307
+  p_value: 0.5646782952123918
 FakeLinkInStatusBar:
   drift_status: *id001
   p_value: 1.0
 FrequentDomainNameMismatch:
   drift_status: *id001
-  p_value: 0.9554347928613115
+  p_value: 1.0
 HostnameLength:
   drift_status: *id001
-  p_value: 0.811177680138124
+  p_value: 0.818640710024041
 HttpsInHostname:
   drift_status: *id001
   p_value: 1.0
 IframeOrFrame:
   drift_status: *id001
-  p_value: 1.0
+  p_value: 0.8542810035751878
 ImagesOnlyInForm:
   drift_status: *id001
   p_value: 1.0
 InsecureForms:
   drift_status: *id001
-  p_value: 1.0
+  p_value: 0.9866374231296622
 IpAddress:
   drift_status: *id001
-  p_value: 0.9999999999476644
+  p_value: 1.0
 MissingTitle:
   drift_status: *id001
-  p_value: 1.0
+  p_value: 0.9999999999845831
 NoHttps:
   drift_status: *id001
   p_value: 1.0
 NumAmpersand:
   drift_status: *id001
-  p_value: 1.0
+  p_value: 0.9436505639866184
 NumDash:
   drift_status: *id001
-  p_value: 0.4173899117459536
+  p_value: 0.9151564989663031
 NumDashInHostname:
   drift_status: *id001
-  p_value: 0.99999999999978
+  p_value: 1.0
 NumDots:
   drift_status: *id001
-  p_value: 0.9909240273480997
+  p_value: 0.9969400783999032
 NumHash:
   drift_status: *id001
   p_value: 1.0
 NumNumericChars:
   drift_status: *id001
-  p_value: 0.6820231215741098
+  p_value: 0.9931554333253089
 NumPercent:
   drift_status: *id001
   p_value: 1.0
 NumQueryComponents:
   drift_status: *id001
-  p_value: 0.9882002124353465
+  p_value: 0.8676560970330033
 NumSensitiveWords:
   drift_status: *id001
-  p_value: 0.818640710024041
+  p_value: 1.0
 NumUnderscore:
   drift_status: *id001
-  p_value: 0.9992677741719815
+  p_value: 0.9999998428145436
 PathLength:
   drift_status: *id001
-  p_value: 0.8332480645501653
+  p_value: 0.9623719444341412
 PathLevel:
   drift_status: *id001
-  p_value: 0.9896269722789419
+  p_value: 0.8741344283903589
 PctExtHyperlinks:
   drift_status: *id001
-  p_value: 0.998258310484825
+  p_value: 0.4032153226355176
 PctExtNullSelfRedirectHyperlinksRT:
   drift_status: *id001
-  p_value: 1.0
+  p_value: 0.9999999207079536
 PctExtResourceUrls:
   drift_status: *id001
-  p_value: 0.6567509715541018
+  p_value: 0.8259993308928486
 PctExtResourceUrlsRT:
   drift_status: *id001
-  p_value: 0.9393542129099094
+  p_value: 0.9999740680025078
 PctNullSelfRedirectHyperlinks:
   drift_status: *id001
-  p_value: 0.9999926357184024
+  p_value: 0.07645604277999724
 PopUpWindow:
   drift_status: *id001
   p_value: 1.0
 QueryLength:
   drift_status: *id001
-  p_value: 0.9978825302223162
+  p_value: 0.6483161894001435
 RandomString:
   drift_status: *id001
-  p_value: 0.9999999999476644
+  p_value: 1.0
 RelativeFormAction:
   drift_status: *id001
-  p_value: 0.9516910258684307
+  p_value: 0.9830798511507983
 RightClickDisabled:
   drift_status: *id001
   p_value: 1.0
 SubdomainLevel:
   drift_status: *id001
-  p_value: 0.8926760032859178
+  p_value: 0.748376953468328
 SubdomainLevelRT:
   drift_status: *id001
   p_value: 1.0
 SubmitInfoToEmail:
   drift_status: *id001
-  p_value: 1.0
+  p_value: 0.9999999967429405
 TildeSymbol:
   drift_status: *id001
   p_value: 1.0
 UrlLength:
   drift_status: *id001
-  p_value: 0.7959604621148515
+  p_value: 0.4032153226355176
 UrlLengthRT:
   drift_status: *id001
-  p_value: 1.0
+  p_value: 0.8804668796407931
 id:
   drift_status: *id001
-  p_value: 0.5080691128380731
+  p_value: 0.524010477932015

@@ -1,6 +1,0 @@
-[2026-04-22 22:55:19,410] numexpr.utils - INFO - NumExpr defaulting to 12 threads.
-[2026-04-22 22:55:23,386] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[2026-04-22 22:55:23,386] root - INFO - Starting data ingestion
-[2026-04-22 22:55:36,277] pymongo.serverSelection - INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 69e90490f9b839ffff347b08, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-riidhfq-shard-00-00.vu4tnxt.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-riidhfq-shard-00-01.vu4tnxt.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-riidhfq-shard-00-02.vu4tnxt.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "69e90490f9b839ffff347b08"}, "remainingTimeMS": 29}
-[2026-04-22 22:55:37,203] root - INFO - Dataframe created with columns: RangeIndex(start=0, stop=0, step=1)
-[2026-04-22 22:55:37,221] root - INFO - Dataframe exported to feature store file: C:\Users\ASUS\Desktop\NETWORKSECURITY\Artifacts\data_ingestion\feature_store\Phising_Legitmate_full.csv

@@ -17,7 +17,8 @@ from sklearn.ensemble import (
 )
 import os
 import mlflow
-
+import dagshub
+dagshub.init(repo_owner='YASHARTH1630', repo_name='network_security_ml', mlflow=True)
 class ModelTrainer:
     def __init__(self, model_trainer_config, data_transformation_artifact):
         try:
@@ -26,7 +27,7 @@ class ModelTrainer:
         except Exception as e:
             raise NetworkSecurityException(e, sys) from e
 
-    def track_mlflow(self, best_model, classification_metric):
+    def track_mlflow(self, best_model, classification_metric):##This function is used to track the mlflow metrics and model
         with mlflow.start_run():
             mlflow.log_metric("f1_score", classification_metric.f1_score)
             mlflow.log_metric("precision_score", classification_metric.precision_score)
@@ -84,8 +85,8 @@ class ModelTrainer:
             y_test_pred = best_model.predict(X_test)
             test_metric = get_classification_score(y_test, y_test_pred)
 
-            self.track_mlflow(best_model, train_metric)
-            self.track_mlflow(best_model, test_metric)
+            self.track_mlflow(best_model, train_metric)##This is how we track the mlflow metrics and model for the training data
+            self.track_mlflow(best_model, test_metric)##This is how we track the mlflow metrics and model for the test data
 
             preprocessor = load_object(
                 self.data_transformation_artifact.transformed_object_file_path
@@ -100,7 +101,7 @@ class ModelTrainer:
                 self.model_trainer_config.trained_model_file_path,
                 network_model
             )
-
+            save_object("final_model/model.pkl", best_model)
             return ModelTrainerArtifact(
                 trained_model_file_path=self.model_trainer_config.trained_model_file_path,
                 trained_metric_artifact=train_metric,

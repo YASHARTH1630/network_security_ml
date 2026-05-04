@@ -8,4 +8,9 @@ pymongo
 scikit-learn
 pyaml
 dill
+dagshub
+mlflow
+dagshub
+fastapi
+uvicorn
 -e .

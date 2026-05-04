@@ -1,2 +1,5 @@
 venv
 .env
+Artifacts
+_pycache_
+__pycache__
